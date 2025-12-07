@@ -1,9 +1,110 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.4">
   <diagram name="페이지-1" id="F2_83h65_jMJauzbrLHr">
-    <mxGraphModel>
+    <mxGraphModel dx="1224" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="L5kqa4EwArplglOYxSlG-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="Infrastructure Layer" vertex="1">
+          <mxGeometry height="147" width="420" x="450" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="Data Layer" vertex="1">
+          <mxGeometry height="128" width="273" x="20" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="Integration / Communication Layer" vertex="1">
+          <mxGeometry height="128" width="491" x="315" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="Microservices Layer" vertex="1">
+          <mxGeometry height="140" width="850" x="20" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="Interface / Edge Layer" vertex="1">
+          <mxGeometry height="147" width="380" x="20" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="Client Layer" vertex="1">
+          <mxGeometry height="120" width="380" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="고객 웹&#xa;React/Next.js" vertex="1">
+          <mxGeometry height="78" width="160" x="30" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="백오피스&#xa;React or Nexacro" vertex="1">
+          <mxGeometry height="76" width="160" x="217" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="API Gateway&#xa;Spring Cloud Gateway / Kong" vertex="1">
+          <mxGeometry height="102" width="260" x="93" y="199" as="geometry" />
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="각 업무도메인&#xa;Spring Boot" vertex="1">
+          <mxGeometry height="102" width="260" x="330" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="AWS SNS+SQS&#xa;Message Broker" vertex="1">
+          <mxGeometry height="78" width="187" x="330" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Service Discovery&#xa;Eureka / Consul" vertex="1">
+          <mxGeometry height="78" width="185" x="550" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-13" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="DB per Service&#xa;AWS Aurora RDS for Mysql" vertex="1">
+          <mxGeometry height="78" width="203" x="55" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-14" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="AWS ECS(Pod)" vertex="1">
+          <mxGeometry height="52" width="156" x="478" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-15" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Monitoring&#xa;Prometheus + Grafana / ELK" vertex="1">
+          <mxGeometry height="50" width="190" x="654" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-16" edge="1" parent="1" source="L5kqa4EwArplglOYxSlG-7" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.159;entryY=-0.001;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="L5kqa4EwArplglOYxSlG-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="135" y="198" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-17" edge="1" parent="1" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.771;entryY=0.001;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="L5kqa4EwArplglOYxSlG-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="353.98" y="198" />
+            </Array>
+            <mxPoint x="294.98" y="125.99999999999994" as="sourcePoint" />
+            <mxPoint x="293.0000000000001" y="198.59199999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-18" edge="1" parent="1" source="L5kqa4EwArplglOYxSlG-9" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.23;rounded=0;" target="L5kqa4EwArplglOYxSlG-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="246" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-19" edge="1" parent="1" source="L5kqa4EwArplglOYxSlG-10" style="curved=1;startArrow=none;endArrow=block;exitX=0.38;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="L5kqa4EwArplglOYxSlG-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="552" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-20" edge="1" parent="1" source="L5kqa4EwArplglOYxSlG-10" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.98;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="L5kqa4EwArplglOYxSlG-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="796" y="552" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-21" edge="1" parent="1" source="L5kqa4EwArplglOYxSlG-10" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.79;entryX=0.5;entryY=0;rounded=0;" target="L5kqa4EwArplglOYxSlG-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="275" y="552" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-22" edge="1" parent="1" source="L5kqa4EwArplglOYxSlG-14" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="L5kqa4EwArplglOYxSlG-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5kqa4EwArplglOYxSlG-23" edge="1" parent="1" source="L5kqa4EwArplglOYxSlG-15" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.16;rounded=0;" target="L5kqa4EwArplglOYxSlG-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="891" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
